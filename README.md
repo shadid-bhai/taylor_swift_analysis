@@ -1,17 +1,25 @@
-# Taylor Swift Spotify Analysis: Popularity vs. Duration
+# Taylor Swift Spotify Analysis 📊
 
-## 📌 Project Overview
-This project explores a Kaggle Spotify dataset to analyze Taylor Swift's discography. The goal was to identify patterns in her most popular tracks and determine if there is a measurable relationship between song duration and listener popularity.
+An exploratory data analysis (EDA) of Taylor Swift's Spotify presence. This project examines the relationship between song popularity and technical track attributes using a Kaggle Spotify dataset.
 
-## 📊 Key Insights
-* **The "Sweet Spot":** Most of Taylor's top-performing tracks fall within the 3.5 to 4.5-minute range.
-* **Volume vs. Value:** While she has a high volume of tracks, her popularity remains consistently in the top 1% of the dataset.
+## 🎯 Project Goal
+The objective was to determine if song duration influences popularity and to analyze the distribution of tracks across her discography.
 
 ## 🛠️ Tech Stack
-* **Language:** Python 3.x
-* **Libraries:** Pandas (Data Cleaning), Matplotlib & Seaborn (Visualization), NumPy (Calculations).
+- **Language:** Python
+- **Libraries:** Pandas, Matplotlib, NumPy
+- **Dataset:** Spotify top artist tracks (Kaggle)
 
-## 🚀 How to Run
-1. Clone the repo: `git clone https://github.com/shadid-bhai/taylor_swift_analysis.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Open the notebook: `jupyter notebook notebooks/spotify_analysis.ipynb`
+## 📈 Key Findings & Correlations
+* **Correlation Result:** Based on the analysis, there is a **weak correlation** between track duration and popularity. This suggests that Taylor Swift's audience engagement is driven by factors other than song length.
+* **Artist Dominance:** The data highlights a high density of tracks with popularity scores above 75, showcasing consistent listener retention.
+* **Data Cleaning:** Performed preprocessing to handle missing values and formatted the duration metrics for accurate statistical plotting.
+
+## 🚀 How to Use
+1. Clone the repository.
+2. Ensure you have `pandas` and `matplotlib` installed.
+3. Run `spotify_analysis.ipynb` to view the visualizations.
+
+## 📁 Repository Structure
+- `spotify_analysis.ipynb`: The main analysis and visualization notebook.
+- `spotify_data_clean.csv`: Preprocessed dataset used for the analysis.
