@@ -6,7 +6,6 @@ This project explores a Kaggle Spotify dataset to analyze Taylor Swift's discogr
 ## 📊 Key Insights
 * **The "Sweet Spot":** Most of Taylor's top-performing tracks fall within the 3.5 to 4.5-minute range.
 * **Volume vs. Value:** While she has a high volume of tracks, her popularity remains consistently in the top 1% of the dataset.
-* **Correlation:** (Insert your finding here, e.g., "Found a weak negative correlation between track length and popularity, suggesting shorter tracks perform slightly better in the streaming era.")
 
 ## 🛠️ Tech Stack
 * **Language:** Python 3.x
